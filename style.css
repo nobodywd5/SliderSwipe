@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+/*    background-color: #029ce3;*/
+    margin: 0;
+/*     overflow: hidden; */
+    width: 100%;
+}
+.nav-slider {
+      background: linear-gradient(0deg, rgba(255,255,0,0) 0%, rgba(255,255,0,0.63) 14%, rgba(192,192,192,0.66) 22%, rgba(192,192,192,1) 100%);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 500px;
+      height: 300px;
+    }
